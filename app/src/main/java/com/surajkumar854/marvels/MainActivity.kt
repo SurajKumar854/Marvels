@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.surajkumar854.heros.HeroText
+
 import com.surajkumar854.marvels.ui.theme.MarvelsTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +24,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    HeroText(title = "Hello")
+                    HeroText(title = "I am Hero")
+
                 }
             }
         }
